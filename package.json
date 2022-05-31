@@ -1,7 +1,11 @@
 {
   "name": "github-page",
   "version": "0.1.0",
-  "homepage": "github-page/",
+  "homepage": "https://wmsousa01.github.io/myfirstpage",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
